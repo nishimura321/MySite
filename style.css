@@ -3,3 +3,18 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+header {
+  width: 1024px;
+  height: 70px;
+  background-color: #EC715F;
+}
+
+nuv {
+  font-size: 16px;
+  color: #FAFAFA;
+}
+
+ul {
+  margin: 30px 0px;
+}
