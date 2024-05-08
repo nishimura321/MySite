@@ -103,6 +103,15 @@ header {
   height: 250px;
   background-size: cover;
   background-position: center;
+  margin: 10px 10px 0px 0px;
+}
+
+.production:nth-child(-n+3) {
+  margin-top: 0px;
+}
+
+.production:nth-child(3n) {
+  margin-right: 0px;
 }
 
 .bg-1 {
