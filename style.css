@@ -4,6 +4,22 @@
   box-sizing: border-box;
 }
 
+h2 {
+  padding-top: 90px;
+  font-size: 32px;
+  color: #000000;
+  text-align: center;
+}
+
+h2:after {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 3px;
+  background-color: #EC715F;
+  margin: 8px auto 30px;
+}
+
 /* ヘッダー */
 
 header {
@@ -65,31 +81,15 @@ header {
   background-color: #ECEFF1;
 }
 
-.portfolio-box {
-  width: 920px;
-  margin: 0 auto;
-}
-
-.portfolio-title {
-  padding-top: 90px;
-  font-size: 32px;
-  color: #000000;
-  text-align: center;
-}
-
-.portfolio-title:after {
-  content: "";
-  display: block;
-  width: 70px;
-  height: 3px;
-  background-color: #EC715F;
-  margin: 8px auto 30px;
-}
-
-.portfolio-text {
+main p {
   font-size: 16px;
   color: #000000;
   text-align: center;
+}
+
+.portfolio-box {
+  width: 920px;
+  margin: 0 auto;
 }
 
 .production-group {
@@ -138,6 +138,19 @@ header {
   background-image: url(img/webcamp-mother.png);
 }
 
+/* 特徴 */
+
+.feature-box {
+  width: 980px;
+  margin: 0 auto;
+}
+
+.strength-box {
+  width: 320px;
+  margin-right: 10px;
+  font-size: 60px;
+  text-align: center;
+}
 
 /* フッター */
 
