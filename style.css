@@ -160,6 +160,7 @@ main p {
 h3 {
   font-size: 20px;
   color: #000000;
+  margin: 10px 0px;
 }
 
 .strength-box > p {
@@ -176,6 +177,53 @@ h3 {
   width: 1024px;
   margin: 0 auto;
 }
+
+.profile-group {
+  display: flex;
+  padding: 30px 0px 90px;
+}
+
+.profile-img {
+  width: 250px;
+  height: 250px;
+  background-image: url(img/my-icon.jpg);
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.left-content {
+  width: 50%;
+}
+
+.right-comtent {
+  width: 50%;
+}
+
+.profile-title {
+  margin: 20px 0px 5px 0px;
+}
+
+.right-comtent > p {
+  text-align: left;
+}
+
+/* 問い合わせ */
+
+.contact-box {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.contact-group {
+  display: flex;
+  margin: 0 auto;
+}
+
+.link-text {
+  text-decoration: underline;
+  color: #212121;
+}
+
 
 /* フッター */
 
