@@ -144,12 +144,26 @@ main p {
   width: 980px;
   margin: 0 auto;
 }
+.strength-group {
+  display: flex;
+  width: 980px;
+  margin: 30px auto 90px;
+}
 
 .strength-box {
   width: 320px;
   margin-right: 10px;
   font-size: 60px;
   text-align: center;
+}
+
+h3 {
+  font-size: 20px;
+  color: #000000;
+}
+
+.strength-box > p {
+  text-align: left;
 }
 
 /* フッター */
