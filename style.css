@@ -192,11 +192,11 @@ h3 {
 }
 
 .left-content {
-  width: 50%;
+  width: 512px;
 }
 
 .right-content {
-  width: 50%;
+  width: 512px;
 }
 
 .profile-title {
@@ -216,7 +216,16 @@ h3 {
 
 .contact-group {
   display: flex;
+  margin: 30px auto 90px ;
+}
+
+.left-contact-content {
   margin: 0 auto;
+}
+
+.right-contact-content {
+  width: 400px;
+  text-align: center;
 }
 
 .link-text {
@@ -242,4 +251,9 @@ footer {
   color: #FAFAFA;
   text-align: center;
   line-height: 60px;
+}
+
+/* タブレット縦置きサイズ（768px）以下の際に適用される設定 */
+@media screen and (max-width:768px) {
+
 }
