@@ -53,6 +53,11 @@ header {
   margin: 0px 30px;
 }
 
+.nav-list a {
+  color: #FAFAFA;
+  text-decoration: none;
+}
+
 /* メインビジュアル */
 
 .main-visual {
@@ -255,5 +260,30 @@ footer {
 
 /* タブレット縦置きサイズ（768px）以下の際に適用される設定 */
 @media screen and (max-width:768px) {
+
+  header {
+    height: 50px;
+  }
+
+  .header-group {
+    width: 90%;
+    display: block;
+  }
+
+  .logo {
+    width: auto;
+    height: 50px;
+  }
+
+  .menu-box {
+
+  }
+
+  .list-bar {
+    display: block;
+    width: 20px;
+    height: 2px;
+    background-color: #FAFAFA;
+  }
 
 }
